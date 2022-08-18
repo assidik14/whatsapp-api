@@ -1,0 +1,28 @@
+{
+  "name": "whatsapp-api",
+  "version": "1.0.0",
+  "description": "WhatsApp API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp-api",
+    "node.js",
+    "whatsapp",
+    "API"
+  ],
+  "author": "Ach. Maulana Assidik",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.5.1",
+    "whatsapp-web.js": "^1.17.1"
+  }
+}
